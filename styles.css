@@ -1,0 +1,40 @@
+img {width: 100%;
+    height: 500%;
+  max-width: 700px;
+max-height: 600px}
+
+    .quote{
+        color: #7700ef;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+      }
+
+    .paragraph {font-family: "Raleway", sans-serif;
+    color:#3e0223;}
+
+    .paragraph:nth-of-type(1):first-letter {
+        font-size: 50px;
+        color: #3e0223;
+        float: left;
+        margin-right: 1rem;
+      }
+
+      .quote::before {content:'"'}
+
+      .quote::after {content: '"'}
+
+    .tracklist{text-align: center;
+    font-size: 50px;
+color:#3e0223;
+font-family: Arial, Helvetica, sans-serif; }
+ol {font-size: 20px;
+color: #3e0223}
+
+     html {background-color: rgb(177, 177, 206);} 
+
+     a {color:#30028c }
+     a:hover {color:#dd07cb}
+     a:visited {color:#790473}
+     footer {font-size: 18px;
+    color: #3e0223}
